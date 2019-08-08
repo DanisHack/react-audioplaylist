@@ -38,7 +38,7 @@ export default class App extends Component {
       <div className="universe">
         <div className="header"><Icon.Package class={'feather-icon'} size={32} />react-audioplaylist</div>
         <div className="meta">
-          <div className="tag">v1.0.1</div>
+          <div className="tag">v1.0.4</div>
           <a className="tag npm" href='https://www.npmjs.com/package/@jeremyphilemon/react-audioplaylist'>npm</a>
           <a className="tag github" href='https://github.com/jeremyphilemon/react-audioplaylist'>GitHub</a>
         </div>
