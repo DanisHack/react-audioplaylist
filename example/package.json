@@ -1,6 +1,6 @@
 {
-  "name": "react-audioplaylist-build",
-  "homepage": "https://jeremyphilemon.github.io/react-audioplaylist-build",
+  "name": "react-audioplaylist",
+  "homepage": "https://jeremyphilemon.github.io/react-audioplaylist",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
