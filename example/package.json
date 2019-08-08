@@ -1,9 +1,9 @@
 {
-  "name": "react-audioplaylist",
-  "homepage": "https://jeremyphilemon.github.io/react-audioplaylist",
+  "name": "react-audioplaylist-build",
+  "homepage": "https://jeremyphilemon.github.io/react-audioplaylist-build",
   "version": "1.0.0",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
