@@ -1,0 +1,22 @@
+{
+  "name": "react-audioplaylist-build",
+  "homepage": "https://jeremyphilemon.github.io/react-audioplaylist-build",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-audioplaylist": "file:..",
+    "react-dom": "^16.4.1",
+    "react-feather": "^2.0.3",
+    "react-json-view": "^1.19.1",
+    "react-scripts": "^1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

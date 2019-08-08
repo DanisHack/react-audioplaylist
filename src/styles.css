@@ -1,0 +1,195 @@
+.wrapper {
+  margin: 1rem;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FAFAFA;
+}
+
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: calc(100%);
+  height: 5px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #F2F2F2;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #0037FF;
+}
+
+.playerControls {
+  display: flex;
+  flex-direction: row;
+}
+
+.playerIcons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.timestamp {
+  background: #FFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.25rem;
+}
+
+.icon {
+  color: #424242;
+  cursor: pointer;
+  padding: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  border-radius: 10%;
+}
+
+.icon:hover {
+  background: #f5f5f5;
+}
+
+.playlistIcon {
+  margin-top: -2.75rem;
+  align-self: flex-end;
+  color: #424242;
+  cursor: pointer;
+  padding: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.playlistIcon:hover {
+  background: #F5F5F5;
+}
+
+.time {
+  font-family: monospace;
+  font-size: 1.25rem;
+  color: #424242;
+}
+
+.is-thicc {
+  font-weight: 900;
+}
+
+.is-grey {
+  color: #efefef;
+}
+
+.slider {
+  cursor: pointer;
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: calc(100%); /* Full-width */
+  height: 5px; /* Specified height */
+  background: transparent; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  margin: 0px;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  background: lightgrey; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.slider::-moz-range-thumb {
+  width: 5px; /* Set a specific slider handle width */
+  height: 5px; /* Slider handle height */
+  background: lightgrey; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.track {
+  background: #FFF;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.track img {
+  margin-left: 0;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 2.5px;
+}
+
+.trackMeta {
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+  overflow: hidden;
+}
+
+.trackMeta h1 {
+  stroke: 1px;
+  text-transform: uppercase;
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #000;
+  margin: 0;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.titleColored {
+  color: #0037FF;
+}
+
+.subtitleColored {
+  color: #0037FF;
+}
+
+.playlist {
+  background: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.playlistTrack {
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #FFF;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.playlistTrack:hover {
+  background: #0037FF;
+}
