@@ -1,5 +1,5 @@
 # react-audioplayer
-[![NPM](https://img.shields.io/npm/v/react-audioplayer.svg)](https://www.npmjs.com/package/react-audioplayer) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@jeremyphilemon/react-audioplaylist.svg)](https://www.npmjs.com/package/@jeremyphilemon/react-audioplaylist) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Preview
 Live Demo: https://jeremyphilemon.github.io/react-audioplaylist-build/
