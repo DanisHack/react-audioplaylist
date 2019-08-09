@@ -8,7 +8,7 @@ Live Demo: https://jeremyphilemon.github.io/react-audioplaylist/
 ## Install
 
 ```bash
-npm install --save @jeremyphilemon/react-audioplaylist
+npm install --save react-audioplaylist
 ```
 
 ## Usage

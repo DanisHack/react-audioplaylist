@@ -58,25 +58,12 @@ export default class AudioPlayer extends Component {
   }
 
   handleProgress(event) {
-    if(this.state.isPlaying===true) {
-      this.togglePlay();
-      this.actualProgress.value = event.target.value;
-      this.progress.value = event.target.value;
-      this.audio.currentTime = (event.target.value*this.state.duration)/100;
-      this.togglePlay();
-    } else {
-      this.actualProgress.value = event.target.value;
-      this.progress.value = event.target.value;
-      this.audio.currentTime = (event.target.value*this.state.duration)/100;
-    }
+    this.actualProgress.value = event.target.value;
+    this.progress.value = event.target.value;
+    this.audio.currentTime = (event.target.value*this.state.duration)/100;
   }
 
   togglePlay() {
-    if(window.scrollY>1) {
-      window.scroll(0, 0);
-      this.setState({isPlaying: true});
-      this.audio.play();
-    }
     if (this.state.isPlaying===false) {
       this.setState({isPlaying: true});
       this.audio.play();
@@ -104,7 +91,7 @@ export default class AudioPlayer extends Component {
     }, ()=> {
       this.audio.pause();
       this.audio.load();
-      this.progress.defaultValue = 1;
+      this.progress.value = 0;
     })
   }
 

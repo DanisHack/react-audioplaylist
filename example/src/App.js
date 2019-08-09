@@ -38,7 +38,7 @@ export default class App extends Component {
       <div className="universe">
         <div className="header"><Icon.Package class={'feather-icon'} size={32} />react-audioplaylist</div>
         <div className="meta">
-          <div className="tag">v1.0.6</div>
+          <div className="tag">v1.0.7</div>
           <a className="tag npm" href='https://www.npmjs.com/package/@jeremyphilemon/react-audioplaylist'>npm</a>
           <a className="tag github" href='https://github.com/jeremyphilemon/react-audioplaylist'>GitHub</a>
         </div>
@@ -48,7 +48,7 @@ export default class App extends Component {
         </div>
         <div className="instructions">
           <div className="title">Installation</div>
-            <blockquote><span className="shell">$</span>npm i @jeremyphilemon/react-audioplaylist</blockquote>
+            <blockquote><span className="shell">$</span>npm i react-audioplaylist</blockquote>
           <div className="title">Usage</div>
             <p>1. Import the component.</p>
             <blockquote>import AudioPlayer from 'react-audioplaylist'</blockquote>
