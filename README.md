@@ -5,7 +5,7 @@
 <img src="https://lh3.googleusercontent.com/8B3Dx9swReiCcoU3NXSGly6VV5mQVi9plnc49rALF7mwHVCoDBHsjY6NNWucL1hfNY0TH6rFu82RviFc4ZXeZmlgGIqB7w=s2560" width="50%">
 </p>
 
-Live Demo: https://jeremyphilemon.github.io/react-audioplaylist-build/
+Live Demo: https://jeremyphilemon.github.io/react-audioplaylist/
 ## Install
 
 ```bash
